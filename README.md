@@ -17,34 +17,34 @@
 [Было](https://github.com/paradigm/vim-multicursor) [мно](https://github.com/felixr/vim-multiedit)[-о-](https://github.com/hlissner/vim-multiedit)[го](https://github.com/adinapoli/vim-markmultiple) [попыток](https://github.com/AndrewRadev/multichange.vim) добавить в Vim потрясающую функцию [мультикурсора][sublime-multiple-selection] как в Sublime Text,
  но, на мой взгляд, ни одна из них не была верным портом, который был бы прост в использовании, но в то же время достаточно мощный и интуитивно понятный для существующего пользователя Vim. [vim-multiple-cursors] - еще одна попытка сделать это.
 
-### It's great for quick refactoring
+### Отлично подходит для быстрого рефакторинга
 ![Example1](assets/example1.gif?raw=true)
 
-Vim command sequence: `fp<C-n><C-n><C-n>cname`
+Последовательность команд Vim: `fp<C-n><C-n><C-n>cname`
 
-### Add a cursor to each line of your visual selection
+### Добавьте курсор на каждую строку визуального выбора
 ![Example2](assets/example2.gif?raw=true)
 
-Vim command sequence: `vip<C-n>i"<Right><Right><Right>",<Esc>vipgJ$r]Idays = [`
+Последовательность команд Vim: `vip<C-n>i"<Right><Right><Right>",<Esc>vipgJ$r]Idays = [`
 
-### Match characters from visual selection
+### Совпадение символов из визуального выбора
 ![Example3](assets/example3.gif?raw=true)
 
-Vim command sequence: `df[$r,0f,v<C-n>…<C-n>c<CR><Up><Del><Right><Right><Right><Del>`
+Последовательность команд Vim: `df[$r,0f,v<C-n>…<C-n>c<CR><Up><Del><Right><Right><Right><Del>`
 
-### Use the command to match regexp
+### Используйте команду для соответствия регулярному выражению
 ![Example4](assets/example4.gif?raw=true)
 
-To see what keystrokes are used for the above examples, see [the wiki page](https://github.com/terryma/vim-multiple-cursors/wiki/Keystrokes-for-example-gifs).
+Чтобы увидеть, какие нажатия клавиш используются в приведенных выше примерах, см. [Вики-страница](https://github.com/terryma/vim-multiple-cursors/wiki/Keystrokes-for-example-gifs).
 
 ## Installation
-Install using [Pathogen], [Vundle], [Neobundle], [vim-plug], or your favorite Vim package manager.
+Установите с помощью [Pathogen], [Vundle], [Neobundle], [vim-plug], или вашего любимого менеджера пакетов Vim.
 
-Requires vim 7.4 or newer for full functionality.
+Требуется vim 7.4 или новее для полной функциональности.
 
 ### vim-plug instructions
 
-1. Paste this block into the top of `~/.vimrc`.
+1. Вставьте этот блок в верхнюю часть `~/.vimrc`.
 
 ```vim script
 call plug#begin()
@@ -54,7 +54,7 @@ Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 ```
 
-2. Start vim and execute `:PlugInstall`.
+2. Запустите vim и выполните`:PlugInstall`.
 
 ## Quick Start
 ### normal mode / visual mode
