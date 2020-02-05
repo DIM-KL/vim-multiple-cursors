@@ -14,7 +14,7 @@
  - [Credit](#credit)
 
 ## About
-[Было](https://github.com/paradigm/vim-multicursor) [мно](https://github.com/felixr/vim-multiedit)[-о-](https://github.com/hlissner/vim-multiedit)[го](https://github.com/adinapoli/vim-markmultiple) [попыток](https://github.com/AndrewRadev/multichange.vim) добавить в Vim потрясающую функцию [множественного выбора][sublime-multiple-selection] как в Sublime Text,
+[Было](https://github.com/paradigm/vim-multicursor) [мно](https://github.com/felixr/vim-multiedit)[-о-](https://github.com/hlissner/vim-multiedit)[го](https://github.com/adinapoli/vim-markmultiple) [попыток](https://github.com/AndrewRadev/multichange.vim) добавить в Vim потрясающую функцию [мультикурсора][sublime-multiple-selection] как в Sublime Text,
  но, на мой взгляд, ни одна из них не была верным портом, который был бы прост в использовании, но в то же время достаточно мощный и интуитивно понятный для существующего пользователя Vim. [vim-multiple-cursors] - еще одна попытка сделать это.
 
 ### It's great for quick refactoring
